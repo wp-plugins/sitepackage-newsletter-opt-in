@@ -1,8 +1,8 @@
 === sitepackage:// Newsletter Opt-In ===
 Contributors: webworx.de
 Tags: sitepackage, newsletter, subscribe, registration, opt-in, e-mail-marketing
-Requires at least: 3.0.1
-Tested up to: 3.8.2
+Requires at least: 3.0
+Tested up to: 3.9
 Stable tag: trunk
 
 This plugin provides a newsletter opt-in form that is connected to sitepackage://

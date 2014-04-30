@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name: sitepackage:// Newsletter Opt-in
  * Plugin URI: http://www.sitepackage.de
@@ -25,8 +26,8 @@ add_action ('widgets_init', create_function ('', 'register_widget ("sitepackage_
 * @author webworx GmbH <info@webworx.de>
 * @access public
 */
-class Sitepackage_Widget extends WP_Widget
-{
+class Sitepackage_Widget extends WP_Widget {
+	
 	/**
 	* Field configuration
 	*
@@ -64,10 +65,8 @@ class Sitepackage_Widget extends WP_Widget
 	* @param array $instance Gespeicherte Werte
 	* @return void
 	*/	 
-	public function widget ($args, $instance)
-	{
+	public function widget ($args, $instance) {
 		extract ($args);
-
 		echo $before_widget;
 
 		// Title
@@ -103,14 +102,11 @@ class Sitepackage_Widget extends WP_Widget
 	* @param array $old_instance Alte Werte
 	* @return array $instance Array mit den ges�uberten Werten
 	*/	 
-	public function update ($new_instance, $old_instance)
-	{		
+	public function update ($new_instance, $old_instance) {		
 		$instance = array ();
-		
 		foreach ($this -> fields as $key => $val) {
 			$instance[$key] = strip_tags ($new_instance[$key]);
 		}
-
 		return $instance;
 	}
 
@@ -121,8 +117,7 @@ class Sitepackage_Widget extends WP_Widget
 	* @param array $instance Gespeicherte Werte
 	* @return void
 	*/	 
-	public function form ($instance)
-	{		
+	public function form ($instance) {		
 		foreach ($this -> fields as $key => $val) {
 			if (isset ($instance[$key])) {
 				$value = $instance[$key];
@@ -142,4 +137,5 @@ class Sitepackage_Widget extends WP_Widget
 		}		
 	}
 }
+
 ?>
