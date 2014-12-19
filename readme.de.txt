@@ -2,7 +2,7 @@
 Contributors: webworx.de
 Tags: sitepackage, newsletter, abonnieren, anmeldung, registrierung, opt-in, e-mail-marketing
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 
 Dieses Plugin stellt ein Widget für ein Newsletter-Anmeldeformular zur Verfügung, das an sitepackage:// angebunden wird.
