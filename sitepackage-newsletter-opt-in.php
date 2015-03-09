@@ -80,7 +80,7 @@ class Sitepackage_Widget extends WP_Widget {
 		}
 		
 		// Form
-		echo '<form action="http://formular.sitepackage.de/senden.php" method="post">'."\n";
+		echo '<form action="https://formular.sitepackage.de/senden.php" method="post">'."\n";
 		echo '<p><label for="email">'.$instance['text_field'].'</label> <input name="email" type="text" id="email" /></p>'."\n";
 		echo '<input type="hidden" name="domain" value="'.$instance['domain'].'" /><input type="hidden" name="id" value="'.$instance['form_id'].'" />'."\n";
 		echo '<p><button type="submit">'.$instance['text_button'].'</button></p>'."\n";
