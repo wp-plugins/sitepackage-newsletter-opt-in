@@ -4,7 +4,7 @@
  * Plugin Name: sitepackage:// Newsletter Opt-in
  * Plugin URI: http://www.sitepackage.de
  * Description: This plugin provides a newsletter opt-in form that is connected to sitepackage://. To use this plugin you need to register for the sitepackage:// newsletter system on http://www.sitepackage.de. There is a free version available.
- * Version: 1.0
+ * Version: 1.1
  * Author: webworx GmbH
  * Author URI: http://www.webworx.de
  *

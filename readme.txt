@@ -38,5 +38,8 @@ To use this plugin you need to register for the sitepackage:// newsletter system
 
 == Changelog ==
 
+= 1.1 =
+* Use https
+
 = 1.0 =
 * First version added to the plugin repository
